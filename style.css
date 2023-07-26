@@ -24,7 +24,6 @@ header{
   width: 100vw;
   background-color: white;
   display: flex;
-  position: absolute;
   justify-content: space-between;
 }
 header .part1{
@@ -35,12 +34,12 @@ header .part1{
 header .part1 h1{
   padding: 0;
   font-weight: bold;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:"poppins", serif;
 }
 header .part1 p{
   font-size: 18px;
   font-weight:200;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:"poppins", serif ;
   color: rgb(133, 127, 127);
 }
 header .part1 button{
@@ -50,12 +49,12 @@ header .part1 button{
   font-size: 18px;
   color: white;
   padding: 12px;
+  font-family: "poppins", serif;
 }
 header .part1 button:hover{
 cursor: pointer;
 background-color: rgb(174, 223, 223);
 }
-
 /* header container css ends here */
 
 /* HEADER SECTION CSS ENDS HERE */
